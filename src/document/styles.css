@@ -1,0 +1,219 @@
+@media (min-width: 1025px) {
+  .App {
+    position: absolute;
+    left: 40%;
+    top: 100px;
+    border: 5px solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+    border-radius: 15%;
+    background-color: aqua;
+  }
+  .animate {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    background-color: gold;
+    animation: mymove 15s infinite;
+  }
+  @keyframes mymove {
+    from {
+      left: 0%;
+    }
+    to {
+      left: 90%;
+    }
+  }
+  .footer {
+    position: fixed;
+    bottom: 0px;
+    left: 43%;
+    padding: 0px;
+    background-color: gold;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+  .App {
+    position: absolute;
+    left: 35%;
+    top: 100px;
+    border: 5px solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+    border-radius: 15%;
+    background-color: aqua;
+  }
+  .animate {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    background-color: gold;
+    animation: mymove 10s infinite;
+  }
+  @keyframes mymove {
+    from {
+      left: 0%;
+    }
+    to {
+      left: 80%;
+    }
+  }
+  .footer {
+    position: fixed;
+    bottom: 0px;
+    left: 40%;
+    padding: 0px;
+    background-color: gold;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 699px) {
+  .App {
+    position: absolute;
+    left: 28%;
+    top: 100px;
+    border: 5px solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+    border-radius: 15%;
+    background-color: aqua;
+  }
+  .animate {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    background-color: gold;
+    animation: mymove 10s infinite;
+  }
+  @keyframes mymove {
+    from {
+      left: 0%;
+    }
+    to {
+      left: 70%;
+    }
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 35%;
+    padding: 0px;
+    background-color: gold;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .App {
+    position: absolute;
+    left: 10%;
+    top: 100px;
+    border: 5px solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+    border-radius: 15%;
+    background-color: aqua;
+  }
+  .animate {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    background-color: gold;
+    animation: mymove 5s infinite;
+  }
+  @keyframes mymove {
+    from {
+      left: 0%;
+    }
+    to {
+      left: 60%;
+    }
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 90px;
+    padding: 0px;
+    background-color: gold;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 320px) {
+  .App {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    border: 5px solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+    border-radius: 15%;
+    background-color: aqua;
+  }
+  .animate {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    background-color: gold;
+    animation: mymove 5s infinite;
+  }
+  @keyframes mymove {
+    from {
+      left: 0%;
+    }
+    to {
+      left: 50%;
+    }
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 55px;
+    padding: 0px;
+    background-color: gold;
+    font-weight: bold;
+  }
+}
+
+body {
+  background-color: black;
+}
+button {
+  background-color: #a8ece7;
+  font-weight: bold;
+  border-radius: 30%;
+}
+.btn:hover {
+  background-color: chartreuse;
+}
+h1 {
+  font-family: "Rock 3D", cursive;
+}
+.list {
+  font-family: Lucida handwriting, cursive;
+  font-weight: bold;
+}
+input {
+  height: 20px;
+  border-radius: 10%;
+}
+input:hover {
+  background-color: #fff89a;
+}
+
+.delbtn:hover {
+  background-color: red;
+}
